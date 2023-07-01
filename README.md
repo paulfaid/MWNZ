@@ -23,9 +23,11 @@ The following commands are available in the package.js file
 
 Service
  - Add a ping / health check endpoint. Requirements depend on operating env.
+ - Address compiler warning in the unit test project, requires binding redirects.
+ - Remove Swagger from the launchSettings.
  
 Unit Tests
- - Switch to NUnit (or similar) to get richer asserts
+ - Switch to NUnit (or similar) to get richer asserts.
  - Increase coverage, ensure all xml parsing scenarios are covered.
  - Consider testing the calls between classes.
 
