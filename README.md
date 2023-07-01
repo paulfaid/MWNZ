@@ -1,16 +1,15 @@
-
-##Companies API for evaluation. 
+## Companies API for evaluation. 
 
 A simple service to convert xml from a downstream service into json.
 
-##Dependancies
+## Dependancies
 
  - ASP .Net 6
  - Node.js v18
 
-##Get started
+## Getting started
 
-After cloning the repo, execute `npm install`.
+After cloning the repo, execute `npm install`
 
 The following commands are available in the package.js file
 
