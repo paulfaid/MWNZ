@@ -1,0 +1,21 @@
+{
+    "name": "companies_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean": "dotnet clean solution",
+        "build": "dotnet build solution",
+        "test.unit": "dotnet test solution",
+        "test.integration": "node ./node_modules/mocha/bin/mocha.js IntegrationTests/",
+        "start": "dotnet watch --project solution\\CompaniesApi"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.7",
+        "chai-http": "^4.4.0",
+        "mocha": "^10.2.0",
+        "request": "^2.88.2"
+    }
+}
