@@ -30,6 +30,7 @@ namespace CompaniesApi.Services
                 _logger.LogInformation(ex.Message);  // We don't actually want to swamp the logs with lots of failed requests,
                                                      // but we do need to log something somewhere to catch if
                                                      // the httpclient is misconfigured or the backend service is down.
+                                                     // Although we should add a health check to cover some of these scenarios.
 
                 throw new ApiException("not_found", "The requested resource was not found on the backend service");
             }

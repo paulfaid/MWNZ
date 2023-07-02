@@ -52,6 +52,7 @@ Error messages,  Exceptions and Logging.
  - Logging: We need to log sufficient information to be able to investigate any faults that do occur.
     
     
+Out of curiosity I did a simpler implementation in Dart: [CompaniesApi Dart Implementation](https://github.com/paulfaid/MWNZ_Dart)
 
 
 
