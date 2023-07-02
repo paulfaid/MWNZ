@@ -1,6 +1,6 @@
 ## Companies API for evaluation. 
 
-A simple service to convert xml from a downstream service into json.
+A simple service to convert xml from a downstream service into json. Written to meet the requirements of [MWNZ evaluation](https://github.com/MiddlewareNewZealand/evaluation-instructions)
 
 ## Dependancies
 
